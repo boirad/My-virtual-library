@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <title>Virtual library</title>
+</head>
+
+<body>
+
+    
+
+    <div id="container">
+
+        <nav>
+            <h1>My virtual library</h1>
+            <div id="add">Click to Add a book <i id="addBtn" class="fas fa-plus-circle"></i></div>
+        </nav>
+
+        <table id="bookTable">
+            <tr>
+                <th class="tit">Title</th>
+                <th>Author</th>
+                <th>Pages</th>
+                <th>Read</th>
+                <th class="special-row"></th>
+        
+            </tr>
+        </table>
+
+
+        <div id="form-container" class="hidden">
+            <form action="" id="bookForm">
+                <div class="form-section" id="title-section">
+                    <label class="label-item" for="title">Title:</label>
+                    <input class="input" type="text" placeholder="Insert title" id="title" name="title" required>    
+                </div>
+
+                <div class="form-section" id="author-section">
+                    <label class="label-item" for="author">Author:</label>
+                    <input class="input" type="text" placeholder="Insert author" id="author" name="author" required>
+                </div>
+
+                <div class="form-section" id="pages-section">
+                    <label class="label-item" for="pages">Pages:</label>
+                    <input class="number" type="number" placeholder="Number" id="pages" name="pages" required>
+                </div>
+                
+                <div class="form-section" id="read-section">
+                    <label class="label-item" for="read">Have you read it?</label>
+                    <input type="checkbox" id="read" name="read">
+                </div>
+                
+                <div class="form-section" id="action">
+                    <input type="submit" id="submit" value="Add book">
+                    <input type="button" id="closeBtn" value="Close">
+                </div>
+         
+            </form>
+        </div>
+   
+
+    </div>
+
+
+        <script src="script.js"></script>
+
+</body>
+</html>
