@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("/img/library.jpg");
+    background-image: url("img/library.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: whitesmoke;
@@ -20,7 +20,7 @@ body {
     background-color: #151414c4;
     border: 1px solid #3a3737cf;
     border-top-left-radius: 20px;
-    border-top-rigth-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #container > nav {
