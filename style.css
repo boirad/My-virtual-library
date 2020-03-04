@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("img/library.jpg");
+    background-image: url("/img/library.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: whitesmoke;
